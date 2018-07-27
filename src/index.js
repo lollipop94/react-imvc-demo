@@ -6,6 +6,9 @@ const routes = [
     }, {
         path: '/counter',
         controller: require('./counter/controller')
+    }, {
+        path: '/todolist',
+        controller: require('./todolist/controller')
     }
 ]
 export default routes;
