@@ -11,8 +11,7 @@ export default class Count extends Controller {
     actions = actions;
 
     handleChange = (offset) => {
-        console.log(offset);
-        const { cur } = this.store.getState();
+        // console.log(offset);
         const { UPDATE_NUM } = this.store.actions;
         UPDATE_NUM({ offset });
     }

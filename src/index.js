@@ -4,8 +4,8 @@ const routes = [
         path: ['/', '/home'],
         controller: require('./home/controller')
     }, {
-        path: '/count',
-        controller: require('./count/controller')
+        path: '/counter',
+        controller: require('./counter/controller')
     }
 ]
 export default routes;

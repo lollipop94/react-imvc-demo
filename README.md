@@ -1,4 +1,4 @@
-最近出来实习，公司用的是react-imvc框架，(react-imvc)[https://github.com/Lucifier129/react-imvc]是isomorphic mvc的react实现。我想通过做些小demo页面来学习学习这个框架。
+最近出来实习，公司用的是react-imvc框架，[react-imvc](https://github.com/Lucifier129/react-imvc)是isomorphic mvc的react实现。我想通过做些小demo页面来学习学习这个框架。
 
 #### 创建项目文件夹
 
@@ -88,3 +88,8 @@ function View() {
 #### 启动
 
 `npm start`启动应用，然后打开`http://localhost:3000`就可以看到页面效果了。
+
+#### 页面结构
+
+- home：实现`Hello React-IMVC`。
+- counter：实现一个简单的计数器。
